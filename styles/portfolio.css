@@ -17,7 +17,7 @@ nav ul li{
 nav li a{
     text-decoration: none;
     font-size: 20px;
-    color: ;
+    
 }
 nav ul{
     display: flex;
@@ -84,7 +84,7 @@ nav ul{
     font-size: 18px;
   }
   .banner-profile{
-    width: 560px;
+    width: 730px;
     align-items: bottom right;
     
     
@@ -93,7 +93,7 @@ nav ul{
     display: flex;
     justify-content: space-between;
     align-items: flex-end;
-    margin: 0 30px 0 150px;
+    margin: 0 20px 0 200px;
 
   }
   .banner-content{
@@ -105,10 +105,11 @@ nav ul{
   }
   /* header */
   .header{
-    background-image: url('../images/developer.png'), url('/images/Group\ 12.png');
+    background-image: url('../images/developer.png'), url('/images/imgbg.png');
     background-repeat: no-repeat;
     background-position: top left, bottom right;
   }
+
   /* about style */
   .about{
     border-radius: 10px;
@@ -120,7 +121,7 @@ nav ul{
   main{
     max-width: 1140px;
     margin: 0 auto;
-    text-align: ;
+    
     margin-top: 130px;
     margin-bottom: 130px;
   }
@@ -146,3 +147,10 @@ nav ul{
     box-shadow: 0px 6px 50px 0px rgba(0,0,0,0.06);
 
   }
+  .skill-description{
+    padding: 30px;}
+    /* resume summery  */
+
+    .resume-container{
+       display: flex; 
+    }
